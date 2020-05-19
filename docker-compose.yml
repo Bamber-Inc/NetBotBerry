@@ -6,8 +6,8 @@ volumes:
 # 2  dnscrypt_config:
 
 services:
-  speedtest-cli:
-    build: ./speedtest
+  speedtest:
+    build: ./speedtest-cli
     privileged: true
     volumes:
       - 'speedtest_config:/etc/speedtest'
