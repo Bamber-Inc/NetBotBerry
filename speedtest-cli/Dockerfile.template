@@ -13,9 +13,4 @@ RUN pip install speedtest-cli
 
 RUN sudo dpkg-reconfigure tzdata
 
-# put in gist backup link varible here
-#COPY %%GIST%%/%%RESIN_MACHINE_NAME%%.conf
-#COPY motioneye.conf.sample /usr/share/motioneye/extra/
-#COPY start.sh ./
-
 #CMD ["bash", "start.sh"]
